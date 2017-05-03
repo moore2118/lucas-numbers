@@ -1,3 +1,7 @@
+/*
+Authors - John Naylor, Jonathon Lunsford, Michael Moore
+*/
+
 package LucasNumbers;
 
 import java.util.ArrayList;
