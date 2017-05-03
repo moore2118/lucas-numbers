@@ -14,13 +14,14 @@ public class LucasClient {
     public static void main(String[] argv)
         throws InterruptedException{
             while (true) {
-                System.out.println("Enter the number of numbers (To exit enter q): ");
+                System.out.println("Enter the number of numbers (To exit enter q): \n\n\n");
 
                 if (userInput.hasNextInt()) {
                     int num1 = userInput.nextInt();
 
                     LucasServer.lucasNumbers(num1);
                     LucasServer.checkDivisibility();
+                    LucasServer.dump();
 
                     Thread.sleep(2000);
                     System.out.println("\n\n\n\n");
