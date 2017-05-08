@@ -4,12 +4,12 @@ class LNumber {
 
     private int value;
     private boolean divisible = false;
-
+// constructor for LNumber class
     LNumber(int number){
         value = number;
     }
 
-    @Override
+    @Override // overrodes toString method
     public String toString() {
         return Integer.toString(value) + " : " + isDivisible();
     }
